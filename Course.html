@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPMC COLLEGE &raquo; Courses</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+       <nav>
+           <a href="Course.html"> <img src="images/Logo.jpeg" alt=""></a>
+           <div class="nav-link" id="navLink">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                <li><a href="index.html">HOME</a> </li>
+                <li><a href="About.html">ABOUT</a> </li>
+                <li><a href="Course.html">COURSES</a> </li>
+                <li><a href="Blog.html">BLOG</a> </li> 
+                <li><a href="contact.html">CONTACT</a> </li>
+               </ul>
+           </div>
+           <i class="fa fa-bars" onclick="ShowMenu()" ></i>
+       </nav> 
+        <h1>Our Courses</h1>
+    </section>
+
+   <!--Course-->
+  
+   <section class="course">
+    <h1>Courses We Offer</h1>
+    <p>We offer The following courses and more....</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Accounting With I.T</h3>
+            <p>There are endless job opportunities in Accounting Information Technology. 
+                You can work in the accounting department of a privately owned company or in government or NGO. Any organisation that has any 
+                element of billing & taxation involved, needs an accountant. Choose an 
+                Accounting Information Technology job that suits you best..</p>
+        </div>
+        <div class="course-col">
+            <h3>Software Engineering</h3>
+            <p>A career in software engineering sets you up for designing and creating software that powers the world we 
+                live in. From computers and mobile phones, to home appliances, vehicles, precision machinery, and so much more, all electronic devices 
+                around us are going smart.</p>
+        </div>
+        <div class="course-col">
+            <h3>Cyber Security</h3>
+            <p>Cyber-crime is rated to be the number one challenge by CIOs globally. It can impact anyone from an individual to an organization or a nation.
+                 Cyber Security is important as governments, defence forces, corporates, businesses etc. collect, process, and store unprecedented amounts of data..</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="course-col">
+            <h3>Database Technology</h3>
+            <p>Database Technology has come a long way since it was first developed. Especially in the last 2 decades, Database Management 
+                Systems have evolved at a very fast pace. 
+                A career in database technology opens up unprecedented opportunities through its application in the corporate world for you..</p>
+        </div>
+        <div class="course-col">
+            <h3>Graphic Designing & Web Development </h3>
+            <p>Graphic Designing & Web Development is the exciting world of effectively conveying information visually.
+                 As the world shifts to digital with increasing urgency,
+                 design has a more important role now than ever before: to communicate ideas and information, 
+                 to solve problems creatively, and to connect people. </p>
+        </div>
+        <div class="course-col">
+            <h3>System Engineering</h3>
+            <p>As the world depends more than ever before on the “Internet of things” (IoT), System Engineering also gets its share of the spotlight. 
+                System Engineering is one of the most exciting branches of science today, that brings together design, 
+                programming, and technical management..</p>
+        </div>
+    </div>
+
+</section>
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>We have modern facilities that will suit your learning at IPMC</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.png" alt="">
+            <h3> Library</h3>
+            <p> IPMC has a conducive Library that allows student to read and explore more</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/tadi.jpg" alt="">
+            <h3>Large Compound</h3>
+            <p>Ipmc has a large compound </p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/Lab.jpg" alt="">
+            <h3>I.T Classroom</h3>
+            <p>We also have one of the best Classrooms with accurate computers!</p>
+        </div>
+    </div>
+    
+</section>
+
+   
+
+       
+<div class="footers">
+    <h4> About Us</h4>
+  <p>Launched in 1992, IPMC is West Africa’s largest IT conglomerate and it’s training division delivers globally recognized
+       IT courses to professionals. <br> Over the last 3 decades IPMC IT Learning centres and IPMC College of technology has assisted over 
+       2 million students develop their IT skills under a broad category of Professional, <br> Corporate and Undergrad courses. These IT courses help students realise their 
+      professional ambitions in the digital era of Artificial Intelligence and automation.</p>
+
+      <a href="About.html" class="hero-btn red-btn">READ MORE</a>
+  </div>
+
+<!--footer-------------->
+
+<section class="footer">
+ 
+  
+  <div class="icons">
+      <i class="fa fa-facebook-square"></i>
+      <i class="fa fa-twitter-square"></i>
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+  </div>
+      <div class="contacts_address">
+          
+              Phone: +233 (0)55-555-2222<br>																		
+              PO Box AN 7617, Kwame Nkrumah Avenue || 
+              E-mail: training@ipmcghana.com
+  </div>
+</section>
+
+
+
+    <!---Javascript-->
+<script>
+    var navLink = document.getElementById("navLink");
+
+    function ShowMenu(){
+        navLink.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLink.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

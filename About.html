@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPMC COLLEGE &raquo; About</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+       <nav>
+           <a href="About.html"> <img src="images/Logo.jpeg" alt=""></a>
+           <div class="nav-link" id="navLink">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                   <li><a href="index.html">HOME</a> </li>
+                   <li><a href="About.html">ABOUT</a> </li>
+                   <li><a href="Course.html">COURSES</a> </li>
+                   <li><a href="Blog.html">BLOG</a> </li> 
+                   <li><a href="contact.html">CONTACT</a> </li>
+               </ul>
+           </div>
+           <i class="fa fa-bars" onclick="ShowMenu()" ></i>
+       </nav> 
+        <h1>About Us</h1>
+    </section>
+
+   <!--About us Content-->
+   <section class="about-us">
+       <div class="row">
+           <div class="about-col">
+            <h1>World's Largest I.T Institution</h1>
+            <p>Since then we have honed and trained several young minds who have been successfully absorbed by the industry across various domains in the IT sector.
+                 Our well-curated courses, <br> <br> equipped laboratories and highly qualified faculty have together given us the honor of being considered the best Technology 
+                 College in Ghana.
+
+                An Undergrad Course or a Bachelor’s Degree, lays the required & right foundation for a student’s future professional life. <br> <br>
+                 Our Degree Courses are a balanced combination of theoretical information and practical knowledge that make our students top IT
+                  professionals in the industry. The updated curriculum, laboratory 
+                and AV experiences and assessments make our courses the most in demand in Ghana. We offer the following undergrad programmes:</p>
+                <a href="Blog.html" class="hero-btn red-btn">EXPLORE NOW</a>
+           </div>
+           <div class="about-col">
+            <img src="images/img.webp">
+           </div>
+
+       </div>
+   </section>
+    
+
+   
+
+   <div class="footers">
+    <h4> About Us</h4>
+  <p>Launched in 1992, IPMC is West Africa’s largest IT conglomerate and it’s training division delivers globally recognized
+       IT courses to professionals. <br> Over the last 3 decades IPMC IT Learning centres and IPMC College of technology has assisted over 
+       2 million students develop their IT skills under a broad category of Professional, <br> Corporate and Undergrad courses. These IT courses help students realise their 
+      professional ambitions in the digital era of Artificial Intelligence and automation.</p>
+
+  </div>
+
+<!--footer-------------->
+
+<section class="footer">
+ 
+  
+  <div class="icons">
+      <i class="fa fa-facebook-square"></i>
+      <i class="fa fa-twitter-square"></i>
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+  </div>
+      <div class="contacts_address">
+          
+              Phone: +233 (0)55-555-2222<br>																		
+              PO Box AN 7617, Kwame Nkrumah Avenue || 
+              E-mail: training@ipmcghana.com
+  </div>
+</section>
+
+
+
+    <!---Javascript-->
+<script>
+    var navLink = document.getElementById("navLink");
+
+    function ShowMenu(){
+        navLink.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLink.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

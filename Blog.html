@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPMC COLLEGE &raquo; Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+       <nav>
+           <a href="Blog.html"> <img src="images/Logo.jpeg" alt=""></a>
+           <div class="nav-link" id="navLink">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                <li><a href="index.html">HOME</a> </li>
+                <li><a href="About.html">ABOUT</a> </li>
+                <li><a href="Course.html">COURSES</a> </li>
+                <li><a href="Blog.html">BLOG</a> </li> 
+                <li><a href="contact.html">CONTACT</a> </li>
+               </ul>
+           </div>
+           <i class="fa fa-bars" onclick="ShowMenu()" ></i>
+       </nav> 
+        <h1>Our Certificate & Online Programs For Student</h1>
+    </section>
+
+  
+   <!--Blog-------------->
+    <section class="blog-content">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg" >
+                <h2>Our Certificate & Online Programs For Student</h2>
+                <p>IPMC is dedicated in building the future of a powerful, self dependent Africa; a 
+                    power that comes from knowledge and highly skilled indigenous workforce.!</p>
+                     <br>
+                     <p>With decades of experience in imparting quality, industry oriented knowledge we have 
+                         groomed more than two million IT professionals in West Africa over the past three decades.</p>
+                        <br>
+                        <p>These Professional Certificate IT Courses help you to learn from our best IT trainers, get practical hands on IT training in our modern labs,
+                         complimented by real world industry visits to boost up your confidence for stepping into the corporate world.</p>
+                            <br>                         
+                            <p>The modern labs at our technology centres ensure that all students get in depth practical hands on training for their chosen career paths.
+                             The experienced lecturers create further professional exposure through industry visits and networking with peers.
+                             At the end of your course, you hold an IPMC Certificate which adds value to your profile and makes you stand out in any competitive environment. 
+                             We offer a variety of Professional IT Certificate Courses.
+                            </p>
+                       
+                     <div class="comment-box">
+
+                        <h3>Leave a comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea  rows="5" placeholder="Your Comment"></textarea>
+                            <button type="submit" class="hero-btn red-btn"> POST YOUR COMMENT</button>
+                        </form>
+                     </div>
+                     
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                
+                <div>
+                    <span>Software Enginnering</span>
+                    <span>--</span>
+                </div>
+                <div>
+                    <span>System Enginnering</span>
+                    <span>--</span>
+                </div>
+                <div>
+                    <span>Cyber Security</span>
+                    <span>--</span>
+                </div>
+                <div>
+                    <span>Data Base Design</span>
+                    <span>--</span>
+                </div>
+                <div>
+                    <span>Accounting with IT</span>
+                    <span>--</span>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+   
+
+       
+    <div class="footers">
+        <h4> About Us</h4>
+      <p>Launched in 1992, IPMC is West Africa’s largest IT conglomerate and it’s training division delivers globally recognized
+           IT courses to professionals. <br> Over the last 3 decades IPMC IT Learning centres and IPMC College of technology has assisted over 
+           2 million students develop their IT skills under a broad category of Professional, <br> Corporate and Undergrad courses. These IT courses help students realise their 
+          professional ambitions in the digital era of Artificial Intelligence and automation.</p>
+
+          <a href="About.html" class="hero-btn red-btn">READ MORE</a>
+      </div>
+
+  <!--footer-------------->
+
+  <section class="footer">
+     
+      
+      <div class="icons">
+          <i class="fa fa-facebook-square"></i>
+          <i class="fa fa-twitter-square"></i>
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter"></i>
+      </div>
+          <div class="contacts_address">
+              
+                  Phone: +233 (0)55-555-2222<br>																		
+                  PO Box AN 7617, Kwame Nkrumah Avenue || 
+                  E-mail: training@ipmcghana.com
+      </div>
+  </section>
+
+
+    <!---Javascript-->
+<script>
+    var navLink = document.getElementById("navLink");
+
+    function ShowMenu(){
+        navLink.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLink.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
